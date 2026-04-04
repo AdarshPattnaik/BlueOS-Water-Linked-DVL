@@ -32,13 +32,13 @@ LABEL permissions='\
 LABEL authors='[\
     {\
         "name": "Willian Galvani",\
-        "email": "willian@bluerobotics.com"\
+        "email": "willian@coratiatech.com"\
     }\
 ]'
 LABEL company='{\
         "about": "",\
-        "name": "Blue Robotics",\
-        "email": "support@bluerobotics.com"\
+        "name": "Coratia Technologies",\
+        "email": "support@coratiatech.com"\
     }'
 LABEL type="device-integration"
 LABEL tags='[\
@@ -46,10 +46,10 @@ LABEL tags='[\
         "navigation",\
         "doppler-velocity-log"\
     ]'
-LABEL readme='https://raw.githubusercontent.com/bluerobotics/BlueOS-Water-Linked-DVL/{tag}/README.md'
+LABEL readme='https://raw.githubusercontent.com/coratia/CoratiaOS-Water-Linked-DVL/{tag}/README.md'
 LABEL links='{\
-        "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",\
-        "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/issues"\
+        "website": "https://github.com/coratia/CoratiaOS-Water-Linked-DVL",\
+        "support": "https://github.com/coratia/CoratiaOS-Water-Linked-DVL/issues"\
     }'
 LABEL requirements="core >= 1.1"
 

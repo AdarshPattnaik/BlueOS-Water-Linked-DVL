@@ -2,8 +2,8 @@
     "name":"Water Linked DVL",
     "description":"Driver for Water Linked's DVL",
     "icon":"mdi-dots-vertical",
-    "company":"Blue Robotics",
+    "company":"Coratia Technologies",
     "version":"1.0.5",
-    "webpage":"https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+    "webpage":"https://github.com/coratia/CoratiaOS-Water-Linked-DVL",
     "api":""
  }

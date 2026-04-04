@@ -3,8 +3,8 @@
 [tool.poetry]
 name = "blueos-dvl"
 version = "0.0.1"
-description = "Blue Robotics BlueOS DVL A-50 Extension"
-authors = ["software@bluerobotics.com"]
+description = "Coratia Technologies CoratiaOS DVL A-50 Extension"
+authors = ["software@coratiatech.com"]
 license = "MIT"
 
 [tool.black]

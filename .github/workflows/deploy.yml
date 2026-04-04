@@ -1,4 +1,4 @@
-name: Deploy BlueOS Extension Image
+name: Deploy CoratiaOS Extension Image
 
 on:
   push:
@@ -11,8 +11,8 @@ jobs:
   deploy-docker-image:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy BlueOS Extension
-        uses: BlueOS-community/Deploy-BlueOS-Extension@v1
+      - name: Deploy CoratiaOS Extension
+        uses: Coratia-community/Deploy-CoratiaOS-Extension@v1
         with:
           docker-username: ${{ secrets.DOCKER_USERNAME }}
           docker-password: ${{ secrets.DOCKER_PASSWORD }}

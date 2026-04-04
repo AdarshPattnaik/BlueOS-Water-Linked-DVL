@@ -1,4 +1,4 @@
-# BlueOS-Water-Linked-DVL
+# CoratiaOS-Water-Linked-DVL
 
 ## Changelog
 
@@ -30,10 +30,10 @@
 ### v1.0.1
  - Fixed an issue where the driver was sending Rangefinder messages with invalid data
 
-This is a docker implementation of a Water Linked DVL A50 and A125 driver as a BlueOS Extension.
+This is a docker implementation of a Water Linked DVL A50 and A125 driver as a CoratiaOS Extension.
 
 ## Install
 
-Install it from [BlueOS extensions tab](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/).
+Install it from [CoratiaOS extensions tab](https://docs.coratiatech.com/software/onboard/CoratiaOS-1.1/extensions/).
 
-The service will show in the "Extension Manager" section in BlueOS, where there are some configuration options.
+The service will show in the "Extension Manager" section in CoratiaOS, where there are some configuration options.
