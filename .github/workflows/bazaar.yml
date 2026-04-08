@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Build and Publish Extension in BlueOS CLoud
-        uses: bluerobotics/blueos-cloud-action@0.0.1
+      - name: Build and Publish Extension in CoratiaOS Cloud
+        uses: coratia/coratiaos-cloud-action@0.0.1
         with:
           BCLOUD_PAT: ${{secrets.BCLOUD_PAT}}
           PLATFORMS: linux/arm/v7,linux/arm64,linux/amd64

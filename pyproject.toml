@@ -1,10 +1,10 @@
 # This file is used only for setting up CI. no deployment is done with it
 
 [tool.poetry]
-name = "blueos-dvl"
+name = "coratiaos-dvl"
 version = "0.0.1"
-description = "Blue Robotics BlueOS DVL A-50 Extension"
-authors = ["software@bluerobotics.com"]
+description = "Coratia Technologies CoratiaOS DVL A-50 Extension"
+authors = ["software@coratiatechnologies.com"]
 license = "MIT"
 
 [tool.black]

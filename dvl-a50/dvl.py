@@ -1,5 +1,5 @@
 """
-Code for integration of Water Linked DVL A50/A125 with BlueOS and ArduSub
+Code for integration of Water Linked DVL A50/A125 with CoratiaOS and ArduSub
 """
 
 import json

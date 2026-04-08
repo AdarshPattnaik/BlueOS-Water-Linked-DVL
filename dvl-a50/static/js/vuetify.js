@@ -42477,11 +42477,11 @@ var preset = {
     },
     themes: {
       light: {
-        primary: '#1976D2',
+        primary: '#FFD700',
         secondary: '#424242',
-        accent: '#82B1FF',
+        accent: '#FFF44F',
         error: '#FF5252',
-        info: '#2196F3',
+        info: '#FFD700',
         success: '#4CAF50',
         warning: '#FB8C00'
       },
@@ -44842,17 +44842,17 @@ var blue = Object.freeze({
   base: '#2196f3',
   lighten5: '#e3f2fd',
   lighten4: '#bbdefb',
-  lighten3: '#90caf9',
-  lighten2: '#64b5f6',
-  lighten1: '#42a5f5',
-  darken1: '#1e88e5',
-  darken2: '#1976d2',
-  darken3: '#1565c0',
-  darken4: '#0d47a1',
-  accent1: '#82b1ff',
-  accent2: '#448aff',
-  accent3: '#2979ff',
-  accent4: '#2962ff'
+  lighten3: '#FFF8E1',
+  lighten2: '#FFF59D',
+  lighten1: '#FFF176',
+  darken1: '#FFC107',
+  darken2: '#FFD700',
+  darken3: '#FF9800',
+  darken4: '#E65100',
+  accent1: '#FFF44F',
+  accent2: '#FFF176',
+  accent3: '#FFD700',
+  accent4: '#FFC107'
 });
 var lightBlue = Object.freeze({
   base: '#03a9f4',
