@@ -9,9 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Build and Publish Extension in CoratiaOS Cloud
-        uses: coratia/coratiaos-cloud-action@0.0.1
-        with:
-          BCLOUD_PAT: ${{secrets.BCLOUD_PAT}}
-          PLATFORMS: linux/arm/v7,linux/arm64,linux/amd64
-          EXTENSION: a5a1661c-434c-4bdf-8465-78b8464e98d5
+      - uses: actions/checkout@v3
+      - name: Build Docker Image for Release
+        run: docker build -t water-linked-dvl:${{ github.ref_name }} .
+      # Note: Custom extension registry action not configured
+      # To enable publishing to CoratiaOS extension marketplace, configure appropriate secrets and action

@@ -11,10 +11,12 @@ jobs:
   deploy-docker-image:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy CoratiaOS Extension
-        uses: CoratiaOS-community/Deploy-CoratiaOS-Extension@v1
-        with:
-          docker-username: ${{ secrets.DOCKER_USERNAME }}
-          docker-password: ${{ secrets.DOCKER_PASSWORD }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          image-name: 'water-linked-dvl'
+      - uses: actions/checkout@v3
+      - name: Build Docker Image
+        run: docker build -t water-linked-dvl:latest .
+      # Note: To enable Docker push, configure DOCKER_USERNAME and DOCKER_PASSWORD secrets
+      # - name: Push to Docker Registry
+      #   uses: docker/build-push-action@v4
+      #   with:
+      #     push: true
+      #     tags: ${{ secrets.DOCKER_USERNAME }}/water-linked-dvl:latest
