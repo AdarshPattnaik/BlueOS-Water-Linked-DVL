@@ -32,13 +32,13 @@ LABEL permissions='\
 LABEL authors='[\
     {\
         "name": "Willian Galvani",\
-        "email": "willian@coratiatech.com"\
+        "email": "willian@coratiatechnologies.com"\
     }\
 ]'
 LABEL company='{\
         "about": "",\
         "name": "Coratia Technologies",\
-        "email": "support@coratiatech.com"\
+        "email": "support@coratiatechnologies.com"\
     }'
 LABEL type="device-integration"
 LABEL tags='[\

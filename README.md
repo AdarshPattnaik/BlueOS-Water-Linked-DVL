@@ -34,6 +34,6 @@ This is a docker implementation of a Water Linked DVL A50 and A125 driver as a C
 
 ## Install
 
-Install it from [CoratiaOS extensions tab](https://docs.coratiatech.com/software/onboard/CoratiaOS-1.1/extensions/).
+Install it from [CoratiaOS extensions tab](https://docs.coratiatechnologies.com/ardusub-zola/software/onboard/CoratiaOS-1.1/extensions/).
 
 The service will show in the "Extension Manager" section in CoratiaOS, where there are some configuration options.
